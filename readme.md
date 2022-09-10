@@ -4,13 +4,20 @@
 * course:professional front end web development
 * description: this is a weather app
 * instructions: 
-    2- go to localhost:8000
-    1- run server.js using node
+    * 2- go to localhost:8000
+    * 1- run server.js using node
 * used in this course:
-* javascript:event listeners,fetch,functions,api
-* nodejs: express,bodyParser,cors
-* basic css
-* basic html
+    * javascript:
+      * event listeners, 
+      * fetch,
+      * functions,
+      * api
+    * nodejs: 
+      * express, 
+      * bodyParser,
+      * cors
+    * basic css
+    * basic html
 # alert!: regarding zipcode:
 * currently this website only works for zipcode of usa countries 
 * if you try to use other countries's zipcodes it will throw an error
