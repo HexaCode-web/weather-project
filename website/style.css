@@ -1,0 +1,107 @@
+body,
+html {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background: #fffff8;
+  font-family: "ubuntu";
+  font-weight: 500;
+}
+#app {
+  background-color: hsl(355, 100%, 74%);
+  height: 500px;
+}
+#app,
+.feel,
+.zip {
+  width: 500px;
+  display: flex;
+  border-radius: 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.headline {
+  font-size: 45px;
+  font-family: "overpass";
+}
+button {
+  width: 140px;
+  height: 60px;
+  background-color: white;
+  font-size: 1rem;
+  color: red;
+  border-radius: 40px;
+  border: none;
+}
+button:hover {
+  border: 2px solid gold;
+  transition: 0.1s;
+  transform: scale(1.1);
+}
+button:active {
+  border: 2px solid gold;
+  transition: 0.1s;
+  transform: scale(0.9);
+}
+input,
+textarea {
+  text-align: center;
+  font-size: 1rem;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+}
+textarea {
+  width: 250px;
+  height: 100px;
+}
+#entryHolder div {
+  font-size: 1.5rem;
+}
+.entry,
+#entryHolder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* --------------------------------ANIMATIONS-------------------- */
+#app {
+  animation: expandFromTop 1s;
+}
+.headline {
+  animation: slideinfromleft 1s ease-in 1s both;
+}
+.zip {
+  animation: slideinfromleft 1s ease-in 1.2s both;
+}
+.feel {
+  animation: slideinfromleft 1s ease-in 1.4s both;
+}
+.entry {
+  animation: slideinfromleft 1s ease-in 1.6s both;
+}
+@keyframes expandFromTop {
+  0% {
+    transform: scaleY(0);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+@keyframes slideinfromleft {
+  0% {
+    transform: translateX(-1000px);
+  }
+  90% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
