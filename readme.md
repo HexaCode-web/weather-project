@@ -22,6 +22,6 @@
 * currently this website only works for zipcode of usa countries 
 * if you try to use other countries's zipcodes it will throw an error
 * to use random zipcodes from usa countries use the following link:
-* https://www.randomlists.com/random-zip-codes
+  * https://www.randomlists.com/random-zip-codes
 # i need help with:
 * making it worldwide rather than just usa
