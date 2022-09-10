@@ -3,9 +3,10 @@
 
 * course:professional front end web development
 * description: this is a weather app
-* instructions: 
-    * 2- go to localhost:8000
-    * 1- run server.js using node
+# instructions: 
+     2- go to localhost:8000
+     1- run server.js using node
+# otherwise the website wont work
 * used in this course:
     * javascript:
       * event listeners, 
