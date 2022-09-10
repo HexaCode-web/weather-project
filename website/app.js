@@ -37,9 +37,14 @@ button.addEventListener("click", async () => {
     return;
   }
   // fetching Data from the backennd
-  const Data = await retrieveData();
-  //UPDATING THE DOM
-  UpdatingTheDOM(Data);
+  try {
+    const Data = await retrieveData();
+    //UPDATING THE DOM
+    UpdatingTheDOM(Data);
+  } catch (error) {
+    alert("server is offline,Read the readme.md");
+    return;
+  }
 });
 
 //SUB FUNCTIONS
